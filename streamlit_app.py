@@ -114,10 +114,6 @@ with col2:
     else:
         st.markdown("Draw a digit to see the prediction!")
 
-if clear_btn:
-    st.session_state["canvas"] = None
-    placeholder = st.empty()
-
 st.markdown(
     """
     <hr style="margin-top:3rem;margin-bottom:1rem">
