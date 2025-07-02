@@ -6,7 +6,7 @@ from PIL import Image
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(page_title="Draw a Digit - MNIST Demo by GANESH", 
+st.set_page_config(page_title="Draw a Digit - MNIST Digit Prediction by GANESH", 
                    page_icon="✏️",
                    layout="wide",
                    initial_sidebar_state="expanded"
@@ -132,13 +132,5 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.markdown("""
-    <div class="footer">
-        Made with ❤️ using Streamlit | 
-        <a href="https://github.com/ganeshr369/mnist_digit_predictor" target="_blank">
-            <img src="https://img.shields.io/github/stars/ganeshr369/minst_digit_predictor.svg?logo=github&style=social" alt="GitHub Star">
-        </a>
-    </div>
-""", unsafe_allow_html=True)
 
 
