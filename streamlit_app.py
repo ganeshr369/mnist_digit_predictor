@@ -56,7 +56,6 @@ stroke_width = st.sidebar.slider("Stroke width", 1, 25, 10)
 stroke_color = st.sidebar.color_picker("Stroke color", "#ffffff")
 bg_color = st.sidebar.color_picker("Background color", "#000000")
 real_time_update = st.sidebar.checkbox("Real-time update", True)
-clear_btn = st.sidebar.button("Clear canvas")
 
 col1, col2 = st.columns(2)
 with col1:
