@@ -121,7 +121,6 @@ if clear_btn:
 st.markdown(
     """
     <hr style="margin-top:3rem;margin-bottom:1rem">
-
     <div class="footer" style="text-align:center; font-size:0.9rem; opacity:0.7;">
         © 2025 Ganesh Rawat
         <a href="https://github.com/ganeshr369/" target="_blank"
@@ -136,8 +135,8 @@ st.markdown(
 st.markdown("""
     <div class="footer">
         Made with ❤️ using Streamlit | 
-        <a href="https://github.com/ganeshr369/" target="_blank">
-            <img src="https://img.shields.io/github/stars/ganeshr369/yourrepo.svg?logo=github&style=social" alt="GitHub Star">
+        <a href="https://github.com/ganeshr369/mnist_digit_predictor" target="_blank">
+            <img src="https://img.shields.io/github/stars/ganeshr369/minst_digit_predictor.svg?logo=github&style=social" alt="GitHub Star">
         </a>
     </div>
 """, unsafe_allow_html=True)
