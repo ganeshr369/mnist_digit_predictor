@@ -34,7 +34,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 def load_model():
-    model = tf.keras.models.load_model('mnist_cnn.h5')
+    model = tf.keras.models.load_model('mnist_cnn.h5', compile=False)
     return model
 
 model = load_model()
